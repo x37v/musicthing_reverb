@@ -10273,7 +10273,6 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="XFADE_REV_SWITCH" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="CV_IN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="J1" library="con-amp" deviceset="MTA04-156" device=""/>
-<part name="REV_SEL" library="pinhead" deviceset="PINHD-1X3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10322,6 +10321,14 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="C14" gate="G$1" pin="+"/>
 <wire x1="81.28" y1="127" x2="73.66" y2="127" width="0.1524" layer="91"/>
 <label x="68.58" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C10" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="88.9" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="88.9" size="1.778" layer="95"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
+<junction x="38.1" y="86.36"/>
 </segment>
 </net>
 <net name="GND_B" class="2">
@@ -10374,18 +10381,6 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="177.8" y="127"/>
 <label x="185.42" y="127" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="+12V" class="1">
-<segment>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="38.1" y1="88.9" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<label x="38.1" y="88.9" size="1.778" layer="95"/>
-<pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="50.8" y1="86.36" x2="38.1" y2="86.36" width="0.1524" layer="91"/>
-<junction x="38.1" y="86.36"/>
-</segment>
-</net>
-<net name="-12V" class="1">
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
@@ -10479,7 +10474,6 @@ spring drive is set low. </text>
 <instance part="BRICK" gate="A" x="104.14" y="165.1"/>
 <instance part="R2" gate="G$1" x="33.02" y="55.88"/>
 <instance part="J1" gate="G$3" x="205.74" y="157.48" rot="R90"/>
-<instance part="REV_SEL" gate="A" x="177.8" y="121.92" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -10629,9 +10623,38 @@ spring drive is set low. </text>
 <wire x1="187.96" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="190.5" y="121.92" size="1.778" layer="95"/>
 <wire x1="190.5" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="REV_SEL" gate="A" pin="2"/>
 <wire x1="187.96" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="BRICK" gate="B" pin="OUT"/>
+<wire x1="149.86" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="129.54" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<junction x="154.94" y="144.78"/>
+<label x="172.72" y="147.32" size="1.778" layer="95"/>
+<wire x1="185.42" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="144.78" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="124.46" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="76.2" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="63.5" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="154.94" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="IC4_DRV_RCVR" gate="B" pin="OUT"/>
+<wire x1="154.94" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="86.36" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
+<junction x="157.48" y="86.36"/>
+<junction x="157.48" y="96.52"/>
+<label x="175.26" y="91.44" size="1.778" layer="95"/>
+<wire x1="180.34" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="119.38" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="119.38" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
+<junction x="180.34" y="121.92"/>
 </segment>
 </net>
 <net name="+12V_B" class="1">
@@ -10767,43 +10790,6 @@ spring drive is set low. </text>
 <wire x1="71.12" y1="137.16" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="78L05" gate="G$1" pin="GND"/>
 <wire x1="71.12" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$38" class="0">
-<segment>
-<pinref part="BRICK" gate="B" pin="OUT"/>
-<wire x1="149.86" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="129.54" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<junction x="154.94" y="144.78"/>
-<label x="172.72" y="147.32" size="1.778" layer="95"/>
-<wire x1="185.42" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="144.78" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="REV_SEL" gate="A" pin="1"/>
-<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$39" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="76.2" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="63.5" x2="157.48" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="154.94" y1="63.5" x2="157.48" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC4_DRV_RCVR" gate="B" pin="OUT"/>
-<wire x1="154.94" y1="96.52" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="86.36" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
-<junction x="157.48" y="86.36"/>
-<junction x="157.48" y="96.52"/>
-<label x="175.26" y="91.44" size="1.778" layer="95"/>
-<pinref part="REV_SEL" gate="A" pin="3"/>
-<wire x1="180.34" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="119.38" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
