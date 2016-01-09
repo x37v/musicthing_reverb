@@ -10308,11 +10308,6 @@ spring drive is set low. </text>
 </net>
 <net name="REVERB_RETURN" class="0">
 <segment>
-<wire x1="187.96" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
-<label x="190.5" y="121.92" size="1.778" layer="95"/>
-<wire x1="190.5" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="76.2" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
@@ -10326,10 +10321,7 @@ spring drive is set low. </text>
 <junction x="157.48" y="86.36"/>
 <junction x="157.48" y="96.52"/>
 <label x="175.26" y="91.44" size="1.778" layer="95"/>
-<wire x1="180.34" y1="119.38" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="119.38" x2="187.96" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="96.52" x2="185.42" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="119.38" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V_B" class="1">
@@ -10923,8 +10915,28 @@ R7 = 47k
 </sheets>
 <errors>
 <approved hash="102,2,38.1,45.72,GND,GND_B,,,,"/>
+<approved hash="102,2,132.08,40.64,GND,GND_B,,,,"/>
 <approved hash="102,2,238.76,121.92,GND,GND_B,,,,"/>
 <approved hash="102,2,248.92,121.92,GND,GND_B,,,,"/>
+<approved hash="104,1,170.18,88.9,IC4_DRV_RCVRP,V+,+12V_B,,,"/>
+<approved hash="104,1,170.18,73.66,IC4_DRV_RCVRP,V-,-12V_B,,,"/>
+<approved hash="104,3,-60.96,-33.02,IC2_EQ1P,V+,+12V_B,,,"/>
+<approved hash="104,3,-60.96,-48.26,IC2_EQ1P,V-,-12V_B,,,"/>
+<approved hash="104,3,-53.34,-33.02,IC2P,V+,+12V_B,,,"/>
+<approved hash="104,3,-53.34,-48.26,IC2P,V-,-12V_B,,,"/>
+<approved hash="108,2,187.96,121.92,REVERB_RETURN,,,,,"/>
+<approved hash="113,2,131.976,90.066,FRAME1,,,,,"/>
+<approved hash="113,1,131.976,90.066,FRAME2,,,,,"/>
+<approved hash="113,3,98.0652,104.14,R7,,,,,"/>
+<approved hash="113,3,21.8829,21.7212,TILT_EQ10K,,,,,"/>
+<approved hash="113,3,32.0028,59.8212,BLEND_50K,,,,,"/>
+<approved hash="113,3,-28.1386,82.6812,ATTN_50K,,,,,"/>
+<approved hash="113,3,-93.6329,104.271,AUDIO_IN,,,,,"/>
+<approved hash="113,3,128.796,93.8488,AUDIO_OUT,,,,,"/>
+<approved hash="113,3,55.9542,33.1512,XFADE_IN,,,,,"/>
+<approved hash="113,3,62.1056,10.2912,XFADE_REV_SWITCH,,,,,"/>
+<approved hash="113,3,-35.7971,98.9288,CV_IN,,,,,"/>
+<approved hash="113,2,207.984,162.969,J1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
