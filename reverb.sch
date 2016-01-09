@@ -10283,8 +10283,8 @@ RJ45 Jack connectors&lt;br&gt;
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="162.56" y="0"/>
 <instance part="IC4_DRV_RCVR" gate="P" x="170.18" y="81.28"/>
-<instance part="C4" gate="G$1" x="167.64" y="139.7"/>
-<instance part="C15" gate="G$1" x="170.18" y="121.92" rot="R180"/>
+<instance part="C4" gate="G$1" x="157.48" y="139.7"/>
+<instance part="C15" gate="G$1" x="160.02" y="121.92" rot="R180"/>
 <instance part="C14" gate="G$1" x="81.28" y="124.46"/>
 <instance part="C17" gate="G$1" x="81.28" y="109.22"/>
 <instance part="BRICK" gate="P" x="177.8" y="81.28"/>
@@ -10314,7 +10314,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="185.42" y1="142.24" x2="177.8" y2="142.24" width="0.1524" layer="91"/>
 <label x="187.96" y="142.24" size="1.778" layer="95"/>
 <pinref part="C18" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 <junction x="177.8" y="142.24"/>
 </segment>
 <segment>
@@ -10337,7 +10337,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="185.42" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
 <label x="187.96" y="134.62" size="1.778" layer="95"/>
 <pinref part="C18" gate="G$1" pin="1"/>
-<wire x1="177.8" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
 <junction x="177.8" y="134.62"/>
 </segment>
 <segment>
@@ -10345,7 +10345,7 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="185.42" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
 <label x="187.96" y="119.38" size="1.778" layer="95"/>
 <pinref part="C19" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="119.38" x2="170.18" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
 <junction x="177.8" y="119.38"/>
 </segment>
 <segment>
@@ -10377,7 +10377,7 @@ RJ45 Jack connectors&lt;br&gt;
 <pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="185.42" y1="127" x2="177.8" y2="127" width="0.1524" layer="91"/>
 <pinref part="C15" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="127" x2="160.02" y2="127" width="0.1524" layer="91"/>
 <junction x="177.8" y="127"/>
 <label x="185.42" y="127" size="1.778" layer="95"/>
 </segment>
@@ -10625,17 +10625,6 @@ spring drive is set low. </text>
 <wire x1="190.5" y1="121.92" x2="187.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="121.92" x2="185.42" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="121.92" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="BRICK" gate="B" pin="OUT"/>
-<wire x1="149.86" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="149.86" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="129.54" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
-<junction x="154.94" y="144.78"/>
-<label x="172.72" y="147.32" size="1.778" layer="95"/>
-<wire x1="185.42" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="144.78" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="187.96" y1="124.46" x2="180.34" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="124.46" x2="180.34" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="86.36" x2="157.48" y2="86.36" width="0.1524" layer="91"/>
@@ -10715,11 +10704,6 @@ spring drive is set low. </text>
 <label x="17.78" y="101.6" size="1.778" layer="95"/>
 <wire x1="38.1" y1="101.6" x2="40.64" y2="101.6" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<wire x1="33.02" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
-<label x="25.4" y="162.56" size="1.778" layer="95"/>
-<pinref part="R22" gate="G$1" pin="1"/>
-</segment>
 </net>
 <net name="N$19" class="0">
 <segment>
@@ -10797,6 +10781,26 @@ spring drive is set low. </text>
 <pinref part="C2" gate="G$1" pin="-"/>
 <pinref part="R2" gate="G$1" pin="A"/>
 <wire x1="33.02" y1="60.96" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BRICK_REVERB_RETURN" class="0">
+<segment>
+<wire x1="185.42" y1="144.78" x2="187.96" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="BRICK" gate="B" pin="OUT"/>
+<wire x1="149.86" y1="144.78" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="144.78" x2="185.42" y2="144.78" width="0.1524" layer="91"/>
+<junction x="154.94" y="144.78"/>
+<wire x1="154.94" y1="129.54" x2="154.94" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="149.86" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
+<label x="172.72" y="147.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="BRICKREVERB_SEND" class="0">
+<segment>
+<wire x1="33.02" y1="162.56" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
+<label x="25.4" y="162.56" size="1.778" layer="95"/>
+<pinref part="R22" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
