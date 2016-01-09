@@ -10057,29 +10057,6 @@ RJ45 Jack connectors&lt;br&gt;
 <junction x="38.1" y="86.36"/>
 </segment>
 </net>
-<net name="GND_B" class="2">
-<segment>
-<pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="185.42" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
-<label x="187.96" y="134.62" size="1.778" layer="95"/>
-<wire x1="177.8" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C15" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
-<label x="187.96" y="119.38" size="1.778" layer="95"/>
-<wire x1="177.8" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C14" gate="G$1" pin="-"/>
-<wire x1="81.28" y1="111.76" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="C17" gate="G$1" pin="+"/>
-<wire x1="81.28" y1="114.3" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
-<junction x="81.28" y="114.3"/>
-<label x="93.98" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="-12V_B" class="1">
 <segment>
 <pinref part="C17" gate="G$1" pin="-"/>
@@ -10127,6 +10104,27 @@ RJ45 Jack connectors&lt;br&gt;
 <wire x1="50.8" y1="78.74" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="76.2" x2="38.1" y2="76.2" width="0.1524" layer="91"/>
 <junction x="38.1" y="76.2"/>
+</segment>
+<segment>
+<pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="185.42" y1="134.62" x2="177.8" y2="134.62" width="0.1524" layer="91"/>
+<label x="187.96" y="134.62" size="1.778" layer="95"/>
+<wire x1="177.8" y1="134.62" x2="157.48" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="119.38" x2="177.8" y2="119.38" width="0.1524" layer="91"/>
+<label x="187.96" y="119.38" size="1.778" layer="95"/>
+<wire x1="177.8" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C14" gate="G$1" pin="-"/>
+<wire x1="81.28" y1="111.76" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="C17" gate="G$1" pin="+"/>
+<wire x1="81.28" y1="114.3" x2="81.28" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="114.3" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
+<junction x="81.28" y="114.3"/>
+<label x="93.98" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -10188,7 +10186,7 @@ spring drive is set low. </text>
 <busses>
 </busses>
 <nets>
-<net name="GND_B" class="2">
+<net name="GND" class="2">
 <segment>
 <pinref part="SUPPLY4" gate="GND" pin="GND"/>
 <wire x1="38.1" y1="45.72" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
