@@ -8,24 +8,24 @@
 </settings>
 <grid distance="0.0125" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.00125" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -36,20 +36,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -75,7 +75,7 @@
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
 <layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
@@ -121,6 +121,11 @@
 <hole x="3.81" y="21.59" drill="3.2"/>
 <hole x="148.59" y="21.59" drill="3.2"/>
 <hole x="148.59" y="3.81" drill="3.2"/>
+<text x="1.905" y="6.6675" size="1.016" layer="25" rot="R90">Music Thing Modular</text>
+<text x="4.445" y="8.255" size="1.016" layer="25" rot="R90">Spring Reverb</text>
+<text x="7.9375" y="19.685" size="1.016" layer="26" rot="MR270">XNOR Mod for 4u, 1/16</text>
+<text x="4.7625" y="15.875" size="1.016" layer="26" rot="MR270">Spring Reverb</text>
+<text x="1.905" y="21.2725" size="1.016" layer="26" rot="MR270">CC by SA 3.0 Tom Whitwell</text>
 </plain>
 <libraries>
 <library name="TomW">
@@ -1851,70 +1856,177 @@ Please make sure your boards conform to these design rules.</description>
 <element name="BLND" library="pinhead" package="1X03" value="50K" x="31.4325" y="23.495" smashed="yes">
 <attribute name="NAME" x="28.1813" y="20.2438" size="1.27" layer="25" ratio="10"/>
 </element>
-<element name="C1" library="TomW" package="C050-024X044" value="1nf" x="68.58" y="21.59" rot="R270"/>
-<element name="C10" library="TomW" package="C050-024X044" value="100n" x="58.42" y="18.415"/>
-<element name="C11" library="TomW" package="C050-024X044" value="100n" x="58.42" y="5.715" rot="R180"/>
+<element name="C1" library="TomW" package="C050-024X044" value="1nf" x="68.58" y="21.59" smashed="yes" rot="R270">
+<attribute name="NAME" x="68.881021875" y="23.4155125" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="67.556971875" y="23.4326125" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="C10" library="TomW" package="C050-024X044" value="100n" x="58.42" y="18.415" smashed="yes">
+<attribute name="NAME" x="56.5944875" y="18.716021875" size="1.016" layer="25" ratio="10"/>
+<attribute name="VALUE" x="56.5773875" y="17.391971875" size="1.016" layer="25" ratio="10"/>
+</element>
+<element name="C11" library="TomW" package="C050-024X044" value="100n" x="58.42" y="5.715" smashed="yes" rot="R180">
+<attribute name="NAME" x="60.2455125" y="5.413978125" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="60.2626125" y="6.738028125" size="1.016" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="C12" library="gm-caps-electro-pol" package="050_020" value="10uf" x="45.72" y="22.225" smashed="yes" rot="R180">
 <attribute name="NAME" x="46.863" y="23.9395" size="0.8128" layer="25" ratio="12" rot="R180"/>
-<attribute name="VALUE" x="46.6725" y="19.4945" size="0.8128" layer="27" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="46.6725" y="19.4945" size="0.8128" layer="25" ratio="12" rot="R180"/>
 </element>
 <element name="C13" library="gm-caps-ceramic" package="050X030_025" value="22pf" x="86.36" y="1.905" smashed="yes">
 <attribute name="NAME" x="89.0778" y="1.7018" size="1.27" layer="25" ratio="12"/>
-<attribute name="VALUE" x="79.8684" y="1.5748" size="1.27" layer="27" ratio="12"/>
+<attribute name="VALUE" x="79.8684" y="1.5748" size="1.27" layer="25" ratio="12"/>
 </element>
-<element name="C14" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="10uf" x="22.225" y="22.225" rot="R90"/>
-<element name="C15" library="TomW" package="C050-024X044" value="100n" x="115.2525" y="8.89" rot="R180"/>
-<element name="C16" library="TomW" package="C050-024X044" value="100n" x="82.55" y="17.78" rot="R180"/>
+<element name="C14" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="10uf" x="22.225" y="22.225" smashed="yes" rot="R90">
+<attribute name="NAME" x="20.701" y="21.336" size="0.4064" layer="25" rot="R90"/>
+<attribute name="VALUE" x="25.908" y="20.32" size="0.8128" layer="25" rot="R90"/>
+</element>
+<element name="C15" library="TomW" package="C050-024X044" value="100n" x="115.2525" y="8.89" smashed="yes" rot="R180">
+<attribute name="NAME" x="117.0780125" y="8.588978125" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="117.0951125" y="9.913028125" size="1.016" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="C16" library="TomW" package="C050-024X044" value="100n" x="82.55" y="17.78" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.3755125" y="17.478978125" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="84.3926125" y="18.803028125" size="1.016" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="C17" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="10uf" x="22.225" y="3.175" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.701" y="2.286" size="0.4064" layer="25" rot="R90"/>
-<attribute name="VALUE" x="25.908" y="1.27" size="0.8128" layer="27" rot="R90"/>
+<attribute name="VALUE" x="25.908" y="1.27" size="0.8128" layer="25" rot="R90"/>
 </element>
 <element name="C2" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="10uf" x="106.045" y="5.715" smashed="yes">
 <attribute name="NAME" x="105.156" y="7.239" size="0.4064" layer="25"/>
-<attribute name="VALUE" x="106.3625" y="2.3495" size="0.8128" layer="27"/>
+<attribute name="VALUE" x="106.3625" y="2.3495" size="0.8128" layer="25"/>
 </element>
-<element name="C3" library="TomW" package="C050-024X044" value="10n" x="110.1725" y="19.05" rot="R270"/>
-<element name="C4" library="TomW" package="C050-024X044" value="100n" x="118.11" y="22.225" rot="R180"/>
-<element name="C5" library="TomW" package="C050-024X044" value="100n" x="93.345" y="11.43" rot="R270"/>
-<element name="C6" library="TomW" package="C050-024X044" value="33nf" x="79.375" y="6.985" rot="R270"/>
-<element name="C7" library="TomW" package="C050-024X044" value="33nf" x="97.155" y="20.955" rot="R90"/>
-<element name="C8" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="22uf" x="126.0475" y="6.35" rot="R270"/>
-<element name="C9" library="TomW" package="C050-024X044" value="2.2nf " x="123.19" y="18.7325" rot="R90"/>
+<element name="C3" library="TomW" package="C050-024X044" value="10n" x="110.1725" y="19.05" smashed="yes" rot="R270">
+<attribute name="NAME" x="110.473521875" y="20.8755125" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="109.149471875" y="20.8926125" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="C4" library="TomW" package="C050-024X044" value="100n" x="118.11" y="22.225" smashed="yes" rot="R180">
+<attribute name="NAME" x="119.9355125" y="21.923978125" size="1.016" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="119.9526125" y="23.248028125" size="1.016" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="C5" library="TomW" package="C050-024X044" value="100n" x="93.345" y="11.43" smashed="yes" rot="R270">
+<attribute name="NAME" x="93.646021875" y="13.2555125" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="92.321971875" y="13.2726125" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="C6" library="TomW" package="C050-024X044" value="33nf" x="79.375" y="6.985" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.676021875" y="8.8105125" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="78.351971875" y="8.8276125" size="1.016" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="C7" library="TomW" package="C050-024X044" value="33nf" x="97.155" y="20.955" smashed="yes" rot="R90">
+<attribute name="NAME" x="96.853978125" y="19.1294875" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="98.178028125" y="19.1123875" size="1.016" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="C8" library="SparkFun-Passives" package="CPOL-RADIAL-10UF-25V" value="22uf" x="126.0475" y="6.35" smashed="yes" rot="R270">
+<attribute name="NAME" x="127.5715" y="7.239" size="0.4064" layer="25" rot="R270"/>
+<attribute name="VALUE" x="122.3645" y="8.255" size="0.8128" layer="25" rot="R270"/>
+</element>
+<element name="C9" library="TomW" package="C050-024X044" value="2.2nf " x="123.19" y="18.7325" smashed="yes" rot="R90">
+<attribute name="NAME" x="122.888978125" y="16.9069875" size="1.016" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="124.213028125" y="16.8898875" size="1.016" layer="25" ratio="10" rot="R90"/>
+</element>
 <element name="D3" library="diode" package="DO41-10" value="1N4001" x="18.4785" y="6.985" smashed="yes" rot="R270"/>
 <element name="D4" library="diode" package="DO41-10" value="1N4001" x="18.415" y="19.05" smashed="yes" rot="R270"/>
-<element name="IC2" library="linear" package="DIL14" value="TL074" x="60.96" y="12.065" rot="R180"/>
-<element name="IC2_EQ1" library="TomW" package="DIL08" value="NE5532" x="86.36" y="11.43" rot="R180"/>
-<element name="IC4_DRV_RCVR" library="TomW" package="DIL08" value="TL072" x="116.5225" y="15.24" smashed="yes" rot="R270">
-<attribute name="VALUE" x="114.6175" y="17.526" size="1.27" layer="27" font="vector" ratio="12" rot="R270"/>
+<element name="IC2" library="linear" package="DIL14" value="TL074" x="60.96" y="12.065" smashed="yes" rot="R180">
+<attribute name="NAME" x="70.231" y="15.113" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="67.691" y="12.7" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="LDR1" library="TomW" package="VACTROL_COMPACT" value="VTL5C" x="36.83" y="8.255"/>
+<element name="IC2_EQ1" library="TomW" package="DIL08" value="NE5532" x="86.36" y="11.43" smashed="yes" rot="R180">
+<attribute name="NAME" x="89.281" y="11.176" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+<attribute name="VALUE" x="88.646" y="13.335" size="1.27" layer="25" font="vector" ratio="12" rot="R180"/>
+</element>
+<element name="IC4_DRV_RCVR" library="TomW" package="DIL08" value="TL072" x="116.5225" y="15.24" smashed="yes" rot="R270">
+<attribute name="VALUE" x="114.6175" y="17.526" size="1.27" layer="25" font="vector" ratio="12" rot="R270"/>
+</element>
+<element name="LDR1" library="TomW" package="VACTROL_COMPACT" value="VTL5C" x="36.83" y="8.255" smashed="yes">
+<attribute name="NAME" x="33.655" y="10.16" size="0.8128" layer="25"/>
+</element>
 <element name="LED" library="TomW" package="LED3MM" value="3mm Superbright" x="27.94" y="4.445" smashed="yes" rot="R90">
 <attribute name="NAME" x="29.845" y="7.874" size="1.27" layer="25" ratio="10" rot="R180"/>
 </element>
-<element name="R1" library="TomW" package="VERT-RESISTOR" value="100k" x="50.165" y="20.32" rot="R270"/>
-<element name="R10" library="TomW" package="0207/10" value="100k" x="38.1" y="15.875" rot="R180"/>
-<element name="R11" library="TomW" package="0207/10" value="2.2k" x="38.1" y="18.415"/>
-<element name="R12" library="TomW" package="0207/10" value="2.2k" x="77.47" y="16.51" rot="R90"/>
-<element name="R13" library="TomW" package="0207/10" value="6.8k" x="88.9" y="23.495" rot="R180"/>
-<element name="R14" library="TomW" package="0207/10" value="2.2k" x="97.155" y="11.43" rot="R270"/>
-<element name="R15" library="TomW" package="0207/10" value="6.8k" x="87.63" y="4.445" rot="R180"/>
-<element name="R16" library="TomW" package="VERT-RESISTOR" value="47k" x="52.07" y="1.905" rot="R180"/>
-<element name="R17" library="TomW" package="VERT-RESISTOR" value="47k" x="52.07" y="5.715" rot="R180"/>
-<element name="R19" library="TomW" package="VERT-RESISTOR" value="10k" x="88.9" y="17.78" rot="R180"/>
+<element name="R1" library="TomW" package="VERT-RESISTOR" value="100k" x="50.165" y="20.32" smashed="yes" rot="R270">
+<attribute name="VALUE" x="50.95230625" y="21.99831875" size="0.6096" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="48.895" y="22.225" size="0.6096" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="R10" library="TomW" package="0207/10" value="100k" x="38.1" y="15.875" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.84836875" y="15.4459875" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="41.384790625" y="17.102290625" size="1.4224" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R11" library="TomW" package="0207/10" value="2.2k" x="38.1" y="18.415" smashed="yes">
+<attribute name="NAME" x="34.35163125" y="18.8440125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="34.815209375" y="17.187709375" size="1.4224" layer="25" ratio="10"/>
+</element>
+<element name="R12" library="TomW" package="0207/10" value="2.2k" x="77.47" y="16.51" smashed="yes" rot="R90">
+<attribute name="NAME" x="77.0409875" y="12.76163125" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="78.697290625" y="13.225209375" size="1.4224" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R13" library="TomW" package="0207/10" value="6.8k" x="88.9" y="23.495" smashed="yes" rot="R180">
+<attribute name="NAME" x="92.64836875" y="23.0659875" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="92.184790625" y="24.722290625" size="1.4224" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R14" library="TomW" package="0207/10" value="2.2k" x="97.155" y="11.43" smashed="yes" rot="R270">
+<attribute name="NAME" x="97.5840125" y="15.17836875" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="95.927709375" y="14.714790625" size="1.4224" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="R15" library="TomW" package="0207/10" value="6.8k" x="87.63" y="4.445" smashed="yes" rot="R180">
+<attribute name="NAME" x="91.37836875" y="4.0159875" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="90.914790625" y="5.672290625" size="1.4224" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R16" library="TomW" package="VERT-RESISTOR" value="47k" x="52.07" y="1.905" smashed="yes" rot="R180">
+<attribute name="VALUE" x="53.74831875" y="1.11769375" size="0.6096" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="53.975" y="3.175" size="0.6096" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R17" library="TomW" package="VERT-RESISTOR" value="47k" x="52.07" y="5.715" smashed="yes" rot="R180">
+<attribute name="VALUE" x="53.74831875" y="4.92769375" size="0.6096" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="53.975" y="6.985" size="0.6096" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R19" library="TomW" package="VERT-RESISTOR" value="10k" x="88.9" y="17.78" smashed="yes" rot="R180">
+<attribute name="VALUE" x="90.57831875" y="16.99269375" size="0.6096" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="90.805" y="19.05" size="0.6096" layer="25" ratio="10" rot="R180"/>
+</element>
 <element name="R2" library="resistor" package="RTRIMT93YA" value="10k" x="102.5525" y="13.97" smashed="yes">
 <attribute name="NAME" x="99.5125" y="9.08" size="1.27" layer="25" rot="R90"/>
-<attribute name="VALUE" x="99.5775" y="15.7475" size="1.27" layer="27" rot="R90"/>
+<attribute name="VALUE" x="99.5775" y="15.7475" size="1.27" layer="25" rot="R90"/>
 </element>
-<element name="R20" library="TomW" package="0207/10" value="10k" x="88.265" y="20.955"/>
-<element name="R3" library="TomW" package="0207/10" value="2.2k" x="106.9975" y="15.24" rot="R90"/>
-<element name="R31" library="TomW" package="0207/10" value="100k" x="38.1" y="13.335"/>
-<element name="R33" library="TomW" package="0207/10" value="100k" x="27.94" y="13.97" rot="R90"/>
-<element name="R34" library="TomW" package="0207/10" value="100k" x="57.785" y="23.495"/>
-<element name="R4" library="TomW" package="0207/10" value="22R" x="115.8875" y="2.54" rot="R180"/>
-<element name="R5" library="TomW" package="0207/10" value="4.7k" x="116.205" y="5.715"/>
-<element name="R6" library="TomW" package="0207/10" value="22k" x="126.0475" y="16.51" rot="R270"/>
-<element name="R7" library="TomW" package="0207/10" value="" x="60.325" y="20.955" rot="R180"/>
-<element name="R8" library="TomW" package="0207/10" value="1k" x="70.485" y="1.905"/>
+<element name="R20" library="TomW" package="0207/10" value="10k" x="88.265" y="20.955" smashed="yes">
+<attribute name="NAME" x="84.51663125" y="21.3840125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="84.980209375" y="19.727709375" size="1.4224" layer="25" ratio="10"/>
+</element>
+<element name="R3" library="TomW" package="0207/10" value="2.2k" x="106.9975" y="15.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="106.5684875" y="11.49163125" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="108.224790625" y="11.955209375" size="1.4224" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R31" library="TomW" package="0207/10" value="100k" x="38.1" y="13.335" smashed="yes">
+<attribute name="NAME" x="34.35163125" y="13.7640125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="34.815209375" y="12.107709375" size="1.4224" layer="25" ratio="10"/>
+</element>
+<element name="R33" library="TomW" package="0207/10" value="100k" x="27.94" y="13.97" smashed="yes" rot="R90">
+<attribute name="NAME" x="27.5109875" y="10.22163125" size="0.8128" layer="25" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="29.167290625" y="10.685209375" size="1.4224" layer="25" ratio="10" rot="R90"/>
+</element>
+<element name="R34" library="TomW" package="0207/10" value="100k" x="57.785" y="23.495" smashed="yes">
+<attribute name="NAME" x="54.03663125" y="23.9240125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="54.500209375" y="22.267709375" size="1.4224" layer="25" ratio="10"/>
+</element>
+<element name="R4" library="TomW" package="0207/10" value="22R" x="115.8875" y="2.54" smashed="yes" rot="R180">
+<attribute name="NAME" x="119.63586875" y="2.1109875" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="119.172290625" y="3.767290625" size="1.4224" layer="25" ratio="10" rot="R180"/>
+</element>
+<element name="R5" library="TomW" package="0207/10" value="4.7k" x="116.205" y="5.715" smashed="yes">
+<attribute name="NAME" x="112.45663125" y="6.1440125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="112.920209375" y="4.487709375" size="1.4224" layer="25" ratio="10"/>
+</element>
+<element name="R6" library="TomW" package="0207/10" value="22k" x="126.0475" y="16.51" smashed="yes" rot="R270">
+<attribute name="NAME" x="126.4765125" y="20.25836875" size="0.8128" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="124.820209375" y="19.794790625" size="1.4224" layer="25" ratio="10" rot="R270"/>
+</element>
+<element name="R7" library="TomW" package="0207/10" value="" x="60.325" y="20.955" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.07336875" y="20.5259875" size="0.8128" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="63.609790625" y="22.182290625" size="1.4224" layer="27" ratio="10" rot="R180"/>
+</element>
+<element name="R8" library="TomW" package="0207/10" value="1k" x="70.485" y="1.905" smashed="yes">
+<attribute name="NAME" x="66.73663125" y="2.3340125" size="0.8128" layer="25" ratio="10"/>
+<attribute name="VALUE" x="67.200209375" y="0.677709375" size="1.4224" layer="25" ratio="10"/>
+</element>
 <element name="T1" library="transistor" package="TO92" value="2N3904" x="22.86" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.495" y="9.525" size="1.27" layer="25" ratio="10" rot="R270"/>
 </element>
@@ -1926,16 +2038,19 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="MPN" value="BTOR 1" x="134.3025" y="18.0975" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="134.3025" y="18.0975" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="96K7172" x="134.3025" y="18.0975" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="140.97" y="18.0975" size="1.27" layer="27"/>
+<attribute name="VALUE" x="140.97" y="18.0975" size="1.27" layer="25"/>
 </element>
 <element name="TO_OUTPUT" library="con-lumberg" package="BTOR1" value="FROM_TANK" x="142.875" y="9.2075" smashed="yes">
 <attribute name="OC_FARNELL" value="1217030" x="142.875" y="9.2075" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="BTOR 1" x="142.875" y="9.2075" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="142.875" y="9.2075" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="96K7172" x="142.875" y="9.2075" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="130.175" y="3.4925" size="1.27" layer="27"/>
+<attribute name="VALUE" x="130.175" y="3.4925" size="1.27" layer="25"/>
 </element>
-<element name="IN" library="pinhead" package="1X02" value="" x="39.37" y="23.495" rot="R180"/>
+<element name="IN" library="pinhead" package="1X02" value="" x="39.37" y="23.495" smashed="yes" rot="R180">
+<attribute name="NAME" x="41.9862" y="21.6662" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="41.91" y="26.67" size="1.27" layer="27" rot="R180"/>
+</element>
 <element name="OUT" library="pinhead" package="1X02" value="" x="61.595" y="1.905" smashed="yes" rot="R180">
 <attribute name="NAME" x="59.1312" y="2.6162" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="64.135" y="5.08" size="1.27" layer="27" rot="R180"/>
