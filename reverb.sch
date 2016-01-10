@@ -9987,7 +9987,7 @@ RJ45 Jack connectors&lt;br&gt;
 <part name="R16" library="TomW" deviceset="VERT-RESIST1" device="" value="47k"/>
 <part name="SUPPLY15" library="supply2" deviceset="GND" device=""/>
 <part name="R17" library="TomW" deviceset="VERT-RESIST1" device="" value="47k"/>
-<part name="LED1" library="TomW" deviceset="LED" device="3MM" value="3mm Superbright"/>
+<part name="LED" library="TomW" deviceset="LED" device="3MM" value="3mm Superbright"/>
 <part name="SUPPLY23" library="supply2" deviceset="GND" device=""/>
 <part name="IC2" library="linear" deviceset="TL074" device="P" value="TL074"/>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
@@ -10421,7 +10421,7 @@ R7 = 47k
 <instance part="R16" gate="G$1" x="-10.16" y="63.5" rot="R180"/>
 <instance part="SUPPLY15" gate="GND" x="-15.24" y="71.12"/>
 <instance part="R17" gate="G$1" x="7.62" y="63.5"/>
-<instance part="LED1" gate="G$1" x="73.66" y="109.22"/>
+<instance part="LED" gate="G$1" x="73.66" y="109.22"/>
 <instance part="SUPPLY23" gate="GND" x="73.66" y="55.88"/>
 <instance part="IC2" gate="D" x="119.38" y="78.74"/>
 <instance part="IC2" gate="B" x="-60.96" y="68.58"/>
@@ -10553,7 +10553,7 @@ R7 = 47k
 </segment>
 <segment>
 <pinref part="SUPPLY17" gate="+12V" pin="+12V"/>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="LED" gate="G$1" pin="A"/>
 <wire x1="73.66" y1="111.76" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10684,7 +10684,7 @@ R7 = 47k
 <net name="N$26" class="0">
 <segment>
 <pinref part="LDR1" gate="G$1" pin="LED+"/>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="LED" gate="G$1" pin="C"/>
 <wire x1="73.66" y1="104.14" x2="73.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
