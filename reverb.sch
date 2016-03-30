@@ -10542,21 +10542,6 @@ R7 = 47k
 <wire x1="111.76" y1="20.32" x2="111.76" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+12V" class="1">
-<segment>
-<pinref part="SUPPLY16" gate="+12V" pin="+12V"/>
-<wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="66.04" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="BLND" gate="A" pin="1"/>
-<wire x1="38.1" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY17" gate="+12V" pin="+12V"/>
-<pinref part="LED" gate="G$1" pin="A"/>
-<wire x1="73.66" y1="111.76" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$14" class="0">
 <segment>
 <wire x1="50.8" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
@@ -10896,6 +10881,19 @@ R7 = 47k
 <pinref part="IC2" gate="P" pin="V+"/>
 <wire x1="-53.34" y1="-30.48" x2="-53.34" y2="-33.02" width="0.1524" layer="91"/>
 <label x="-58.42" y="-25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SUPPLY17" gate="+12V" pin="+12V"/>
+<pinref part="LED" gate="G$1" pin="A"/>
+<wire x1="73.66" y1="111.76" x2="73.66" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SUPPLY16" gate="+12V" pin="+12V"/>
+<wire x1="45.72" y1="68.58" x2="45.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="66.04" x2="45.72" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="BLND" gate="A" pin="1"/>
+<wire x1="38.1" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="-12V_B" class="1">
